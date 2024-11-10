@@ -21,6 +21,7 @@ def main():
         elif choice == '2':
             tasks = Task.get_tasks()
             print("\nTasks:")
+            print('Adding a print statement')
             for task in tasks:
                 status = "Completed" if task['completed'] else "Pending"
                 print(f"{task['id']}: {task['name']} - {status}")
