@@ -23,7 +23,7 @@ def main():
             print("\nTasks:")
             print('Adding a print statement')
             for task in tasks:
-                status = "Completed" if task['completed'] else "Pending"
+        status = "Completed" if task['completed'] else "Pending"
                 print(f"{task['id']}: {task['name']} - {status}")
         
         elif choice == '3':
