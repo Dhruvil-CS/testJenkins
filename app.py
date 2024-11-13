@@ -25,6 +25,7 @@ def main():
                 status = "Completed" if task['completed'] else "Pending"
                 print(f"{task['id']}: {task['name']} - {status}")
                 print("Hello How are you doing?")
+                print("How are you?")
         
         elif choice == '3':
             try:
